@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PanjabiRestaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:white;
+    }
+    header {
+      background-color: rgb(223, 11, 11);
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+    }
+    h2 {
+      margin-bottom: 15px;
+    }
+    .menu {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      border: 1px solid whitesmoke;
+      border-radius: 5px;
+      width: 300px;
+      padding: 10px;
+      background: whitesmoke;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    .card p {
+      font-size: 14px;
+      color: gray;
+    }
+    .price {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .videos {
+      margin-top: 30px;
+    }
+    iframe {
+      margin-top: 10px;
+      width: 300px;
+      height: 180px;
+      border-radius: 5px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Panjabi Restaurant</h1>
+    <nav>
+      <a href="#">Menu</a>
+      <a href="#">Popular Dishes</a>
+    </nav>
+  </header>
+
+  
+  <div class="container">
+    <h2>Menu</h2>
+    <div class="menu">
+      
+      <div class="card">
+        <img src="https://images.ctfassets.net/j8tkpy1gjhi5/5OvVmigx6VIUsyoKz1EHUs/b8173b7dcfbd6da341ce11bcebfa86ea/Salami-pizza-hero.jpg" alt="Pizza Supreme">
+        <h3>Pizza Supreme</h3>
+        <p>Pizza base topped with tomato sauce, mozzarella cheese, onions, bell peppers, mushrooms, and olives.</p>
+        <p class="price">Price: ₹290</p>
+      </div>
+
+      
+      <div class="card">
+        <img src="https://www.sandyathome.com/wp-content/uploads/2020/05/paneer-tikka-pizza-recipe-2-682x1024.jpg" alt="Paneer Tikka">
+        <h3>Paneer Tikka</h3>
+        <p>Paneer cubes marinated with yogurt, spices, bell peppers, onions, grilled to perfection.</p>
+        <p class="price">Price: ₹250</p>
+      </div>
+    </div>
+
+    <div class="videos">
+      <h2>Popular Dishes Videos</h2>
+      <iframe src="https://youtu.be/VW54489LUuA?si=GmXvvrxSXAe7WiRE" allowfullscreen></iframe>
+      <iframe src="https://youtube.com/shorts/iJcFtYDZZks?si=S2WBGK4uVuOgtf0F" allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>
